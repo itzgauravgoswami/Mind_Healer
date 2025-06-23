@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+.full-screen {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+.card {
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.hero-section {
+    background: linear-gradient(to right, #6b7280, #1f2937);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
